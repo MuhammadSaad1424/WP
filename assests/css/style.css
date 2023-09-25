@@ -1,0 +1,242 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fuggles&family=Raleway&display=swap');
+
+
+body{
+    font-family: 'Dancing Script', cursive;
+font-family: 'Fuggles', cursive;
+font-family: 'Raleway', sans-serif;
+margin: 0%;
+padding: 0%;
+}
+
+.hero {
+    background-image: url('/assests/images/bg-hero.jpg');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-content {
+    padding-top: 300px;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin: 0%;
+    font-weight: 300;
+}
+.hero-content p {
+    padding: 10px 0px;
+}
+.btn-read-more {
+    background-color:#745cf9;
+    color: #fff;
+    padding: 15px 50px;
+    font-size: 12px;
+    border: 2px solid #745cf9;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-read-more:hover {
+    background-color: #5847CB;
+    border: 2px solid #5847CB;
+}
+
+.btn-download {
+    padding: 15px 50px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif;
+
+}
+.btn-download:hover {
+    background-color: #ffffff;
+    color: #000;
+}
+
+.seo {
+    display: flex;
+    align-items: center;
+    padding: 100px 200px;
+    gap: 100px;
+}
+
+.seo-picture img {
+    height: 450px;
+    width: 650px;
+}
+
+.seo-content h1 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.seo-content p {
+    color: #8c979e;
+    font-size: 15px;
+    line-height: 1.4rem;
+}
+
+.seo-btn {
+    margin-top: 30px;
+}
+
+.portfolio {
+    padding: 100px 200px;
+}
+
+.portfolio-picture img {
+    height: 450px;
+    width: 650px;
+}
+
+.portfolio {
+    display: flex;
+    background-color: #F5F5F5;
+    align-items: center;
+    gap: 110px;
+}
+.paralex{
+    align-items: center;
+    text-align: center;
+    background-image: url(/assests/images/parallel.jpg);
+    padding-top: 100px;
+    height: 50vh;
+    background-position: center;
+    color: #fff;
+}
+.paralex-content h1{
+    font-size:50px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+.paralex-paragraph p{
+             margin-bottom: 40px;
+}
+.option{
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
+    margin: 0px 50px;
+
+}
+.option-content p{
+    /* line-height: 50px; */
+    margin: 30px 0px;
+}
+.option-btn{
+    margin-bottom: 20px;
+}
+.projects{
+    background-color: #000;
+    color: #fff;
+    margin-top: 0%;
+    padding: 0%;
+}
+.projects-content{
+                text-align: center;
+                padding-top:50px ; 
+                padding-bottom: 50px;
+}
+.section-images{
+    display: flex;
+}
+.section-images img{
+    width: 379px;
+    height: 300px;
+    margin-bottom: 110px;
+
+}
+.customer-review{
+    background-image: url(/assests/images/bg-customer\ review.jpg);
+    height: 80vh;
+    /* width: 100%; */
+    background-position: center center;
+    background-size: cover;
+}
+.customer-review{
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.item{
+    align-items: center;
+    text-align: center;
+    
+
+}
+.customer-review-content h3{
+            padding-top: 90px;
+            padding-bottom: 30px;
+}
+.item img{
+       height: 100px !important;
+       width: 100px  !important;
+       border-radius: 50%;
+       align-items: center;
+       justify-content: center;
+       text-align: center;
+       margin-left: 700px;
+}
+.item p{
+    line-height: 30px;
+}
+.clients{
+    background-color: #fff;
+}
+.clients-content h1{
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.clients-pics{
+    display: flex;
+    padding-bottom:60px ;
+}
+.clients-pics img{
+          padding: 0%;
+          margin: 0px 100px;
+          opacity: 0.5;
+          size: 10px;  
+}
+.last{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #F5F5F5;
+    padding: 100px  0px;
+}
+.last-content h1{
+       margin: 0px 200px;
+}
+footer p{
+color: #fff;
+padding: 90px 0px;
+margin-left: 100px;
+}
+footer{
+    margin: 0%;
+    padding: 0%;
+    background-color: #000;
+}
